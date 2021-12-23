@@ -148,7 +148,12 @@ a:focus { outline:none; }
 	padding:35px 0;
 }
 #header .header-row .inner { padding:0; }
-#header #logo img { display:inline-block!important; }
+#header #logo img {
+	display:inline-block !important;
+	padding: 0;
+	width: 140px;
+	height: 66px;
+}
 #header ul, #header ol {
 	list-style:none;
 	padding:0;
@@ -1972,4 +1977,8 @@ div.required .control-label:before {
 	content: '* ';
 	color: #F00;
 	font-weight: bold;
+}
+
+.tab-menu-entry {
+	font-size: 13px !important;
 }
